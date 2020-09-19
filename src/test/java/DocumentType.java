@@ -199,5 +199,6 @@ public class DocumentType {
         given().cookies(cookies)
                 .when().delete("/school-service/api/attachments/"+id)
                 .then().statusCode(404);
+        
     }
 }
